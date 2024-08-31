@@ -42,9 +42,11 @@
         {% if post.date or post.author %}
 <p class="archive__item-excerpt page__meta" itemprop="description">
     {% if post.date %}<span style="color: gray;"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</span>{% endif %}
-    {% if post.author %}, <span style="color: black;">{{post.author}}</span>{% endif %}
+    {% if post.author %}{% if post.date %}, {% endif %}<span style="color: black;">{{post.author}}</span>{% endif %}
 </p>
 {% endif %}
+
+        
 
 
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
