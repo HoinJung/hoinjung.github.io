@@ -37,8 +37,15 @@
     {% endif %}
     <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %} -->
-        {% if post.author %}<p class="archive__item-excerpt" itemprop="description"> {{post.author}}{% endif %}
-        {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+        <!-- {% if post.author %}<p class="archive__item-excerpt" itemprop="description"> {{post.author}}{% endif %}
+        {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} -->
+        {% if post.author or post.date %}
+<p class="archive__item-excerpt page__meta" itemprop="description">
+    {% if post.author %}{{post.author}}{% endif %}
+    {% if post.date %}<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}{% endif %}
+</p>
+{% endif %}
+
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
