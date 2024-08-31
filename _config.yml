@@ -21,7 +21,7 @@ repository               : "HoinJung/hoinjung.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "hoin.jpeg"
   name             : "Hoin Jung"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D in Electrical & Computer Engineering"
