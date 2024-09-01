@@ -9,13 +9,14 @@ redirect_from:
 
 I am a Ph.D. student in Electrical and Computer Engineering at Purdue University, with a deep passion for advancing the field of machine learning. My research is focused on addressing challenging problems related to fairness, operating under limited data, and ensuring trustworthiness in various domains, including computer vision, natural language processing, and multi-modal systems. My goal is to make meaningful contributions to these fields through rigorous research and practical application.
 ## Research Interest
-
-### Machine Learing Techniques
+### Machine Learning Under Limited Data
 - Self-supervised Learning
-- Weakly Supervised Learning
+- Positive-Unlabeled Learning
+- Novel Category Discovery
+  
 ### Trustworthy AI
 - Fairness and Debiasing in Machine Learning
-- Multi-Modal Fairness in Self-Supervised Models
+- Multi-Modal Fairness in Foundational Models
 
 
 ## Applied Engineering
