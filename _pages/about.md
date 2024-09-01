@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Electrical and Computer Engineering at Purdue University, with a deep passion for advancing the field of machine learning. My research is focused on addressing challenging problems related to fairness, operating under limited data, and ensuring trustworthiness in various domains, including computer vision, natural language processing, and recommendation systems. My goal is to make meaningful contributions to these fields through rigorous research and practical application.
+I am a Ph.D. student in Electrical and Computer Engineering at Purdue University, with a deep passion for advancing the field of machine learning. My research is focused on addressing challenging problems related to fairness, operating under limited data, and ensuring trustworthiness in various domains, including computer vision, natural language processing, and multi-modal systems. My goal is to make meaningful contributions to these fields through rigorous research and practical application.
 ## Research Interest
 
 ### Machine Learing Techniques
