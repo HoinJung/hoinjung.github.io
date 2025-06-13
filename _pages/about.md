@@ -10,6 +10,7 @@ I am a Ph.D. student in Electrical and Computer Engineering at Purdue University
 
 In addition to my academic research, I pursue industrial applications of machine learning, such as developing generative models for inverse problems in antenna design and building datasets and foundational models for industrial sound AI. These efforts reflect my broader goal of connecting methodological advancements with practical impact across diverse engineering domains.
 ## News
+- **June 2025** - I am honored to be selected as an **Outstanding Reviewer** (top 5%) in **CVPR 2025**!.
 - **May 2025** – I began my summer internship as a Research Scientist at Samsung Research America!
 - **January 2025** – My paper [*ALFA*](https://iclr.cc/virtual/2025/poster/29055) was accepted to **ICLR 2025**!
 - **October 2024** – My work [*NCD-DLT*](https://openaccess.thecvf.com/content/WACV2025/html/Jung_Towards_On-the-Fly_Novel_Category_Discovery_in_Dynamic_Long-Tailed_Distributions_WACV_2025_paper.html) was accepted to **WACV 2025**!
