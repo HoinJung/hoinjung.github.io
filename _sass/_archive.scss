@@ -40,9 +40,9 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.0em;
   font-family: $sans-serif-narrow;
-   font-size: 0.9em;
+   font-size: 1.25em;
 
   a + a {
     opacity: 0.5;
@@ -61,7 +61,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   // font-size: $type-size-6;
-   font-size: 0.5em;
+   font-size: 0.3em;
 
   & + p {
     text-indent: 0;
