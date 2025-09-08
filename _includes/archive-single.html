@@ -41,13 +41,13 @@
 </h2>
     <div class="archive__item-excerpt">
       {% if post.citation and post.paperurl and post.slidesurl %}
-        <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+        <p>&nbsp;&nbsp;{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
       {% elsif post.citation and post.paperurl %}
-        <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+        <p>&nbsp;&nbsp;{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
       {% elsif post.citation and post.slidesurl %}
-        <p>{{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+        <p>&nbsp;&nbsp;{{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
       {% elsif post.citation %}
-        <p>{{ post.citation }}</p>
+        <p>&nbsp;&nbsp;{{ post.citation }}</p>
       {% elsif post.paperurl %}
         <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
       {% elsif post.slidesurl %}
