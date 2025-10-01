@@ -23,4 +23,4 @@ In addition to my academic research, I pursue industrial applications of machine
 - **August 2022** – I completed my **Master’s degree** at Seoul National University.
 - **September 2021** – My paper [*BE-Module*](https://ieeexplore.ieee.org/abstract/document/9527893) for satellite image segmentation was accepted to **IEEE TGRS**.
 - **September 2020** – I started my **Master’s program** at **Seoul National University**.
-
+- **August 2020** – I concluded my three-year role as an **Engineer** at **Samsung Electronics**.
