@@ -21,8 +21,10 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
+  # - title: "CV"
+  #   url: /cv/
   - title: "CV"
-    url: /cv/
+    url: "https://hoinjung.github.io/files/pdf/CV_HoinJung_2025_Oct8.pdf"
     
   # - title: "Guide"
   #   url: /markdown/
