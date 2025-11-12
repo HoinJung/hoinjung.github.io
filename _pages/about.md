@@ -10,6 +10,7 @@ I am a Ph.D. candidate in Electrical and Computer Engineering at Purdue Universi
 
 In addition to my foundational research, I am passionate about applying machine learning to solve tangible problems across various industries and engineering problems. My applied work involves using generative AI for complex engineering design, developing systems for industrial machine perception, creating intelligent agents for consumer electronics, and leveraging machine learning in remote sensing applications. These projects reflect my broader goal of connecting methodological advancements with practical impact across diverse engineering domains.
 ## News
+- **Nov 2025** - My paper **TV Agent** was accepted to the **AAAI 2025 Workshop on Deployable AI (DAI)**
 - **Oct 2025** - I successfully passed my PhD Preliminary Exam!
 - **June 2025** - I am honored to be selected as an **Outstanding Reviewer (top 5%)**  in **CVPR 2025**.
 - **June 2025** - Our paper ZSDebias was accepted to **ICCV 2025**.
