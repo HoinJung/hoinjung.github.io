@@ -13,7 +13,7 @@ In addition to my foundational research, I am passionate about applying machine 
 - **Nov 2025** - My paper *TV Agent* was accepted to the **AAAI 2026 Workshop on Deployable AI (DAI)**.
 - **Oct 2025** - I successfully passed my PhD Preliminary Exam!
 - **Jun 2025** - I am honored to be selected as an **Outstanding Reviewer (top 5%)**  in **CVPR 2025**.
-- **Jun 2025** - Our paper ZSDebias was accepted to **ICCV 2025**.
+- **Jun 2025** - Our paper [*ZSDebias*](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Target_Bias_Is_All_You_Need_Zero-Shot_Debiasing_of_Vision-Language_ICCV_2025_paper.html) was accepted to **ICCV 2025**.
 - **May 2025** – I began my summer internship as a **Research Scientist** at **Samsung Research America**.
 - **Jan 2025** – My paper [*ALFA*](https://iclr.cc/virtual/2025/poster/29055) was accepted to **ICLR 2025**!
 - **Oct 2024** – My work [*NCD-DLT*](https://openaccess.thecvf.com/content/WACV2025/html/Jung_Towards_On-the-Fly_Novel_Category_Discovery_in_Dynamic_Long-Tailed_Distributions_WACV_2025_paper.html) was accepted to **WACV 2025**!
