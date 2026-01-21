@@ -24,7 +24,7 @@ author:
   avatar           : "Jung5.jpg"
   name             : "Hoin Jung"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. candidate in Electrical and Computer Engineering"
+  bio              : "Ph.D. candidate in Electrical<br>and Computer Engineering"
   location         : "West Lafayette, IN, USA"
   employer         : "Purdue University"
   uri              : # URL
