@@ -1,0 +1,11 @@
+---
+title: "Target Bias Is All You Need: Zero-Shot Debiasing of Vision-Language Models with Bias Corpus"
+collection: publications
+category: conferences
+permalink: /publication/2025-09-30-ZSDebias
+date: 2025-09-30
+link: "https://openaccess.thecvf.com/content/ICCV2025/papers/Jang_Target_Bias_Is_All_You_Need_Zero-Shot_Debiasing_of_Vision-Language_ICCV_2025_paper.pdf"
+# paperurl: 'http://hoinjung.github.io/files/pdf/research/Explainable_Antenna.pdf'
+github: "https://openaccess.thecvf.com/content/ICCV2025/papers/Jang_Target_Bias_Is_All_You_Need_Zero-Shot_Debiasing_of_Vision-Language_ICCV_2025_paper.pdf"
+citation: 'Taeuk Jang, <b>Hoin Jung</b>, and Xiaoqian Wang, <i>2025 International Conference on Computer Vision (ICCV 2025) </i>'
+---
