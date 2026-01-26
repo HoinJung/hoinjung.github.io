@@ -10,6 +10,7 @@ I am a Ph.D. candidate in Electrical and Computer Engineering at Purdue Universi
 
 In addition to my foundational research, I am passionate about applying machine learning to solve tangible problems across various industries and engineering problems. My applied work involves using generative AI for complex engineering design, developing systems for industrial machine perception, creating intelligent agents for consumer electronics, and leveraging machine learning in remote sensing applications. These projects reflect my broader goal of connecting methodological advancements with practical impact across diverse engineering domains.
 ## News
+- **Jan 2026** - My paper [*ALA*](https://openreview.net/forum?id=u02Tgg4UYg&nesting=2&sort=date-desc) was accepted to **ICLR 2025**!
 - **Dec 2025** - I am honored to receive the **2026-2027 Bilsland Dissertation Fellowship** from **Purdue University** to support my final dissertation research.
 - **Nov 2025** - My paper *TV Agent* was accepted to the **AAAI 2026 Workshop on Deployable AI (DAI)**.
 - **Oct 2025** - I successfully passed my PhD Preliminary Exam!
