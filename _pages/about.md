@@ -10,6 +10,7 @@ I am a Ph.D. candidate in Electrical and Computer Engineering at Purdue Universi
 
 In addition to my foundational research, I am passionate about applying machine learning to solve tangible problems across various industries and engineering problems. My applied work involves using generative AI for complex engineering design, developing systems for industrial machine perception, creating intelligent agents for consumer electronics, and leveraging machine learning in remote sensing applications. These projects reflect my broader goal of connecting methodological advancements with practical impact across diverse engineering domains.
 ## News
+- **May 2026** – I began my summer internship (Advancing Machine Learning for Scientific Discovery Fellowship) at **Los Alamos National Laboratory**.
 - **Feb 2026** - My paper **DQA** was accepted to **CVPR 2026 Findings**!
 - **Jan 2026** - My paper [*ALA*](https://openreview.net/forum?id=u02Tgg4UYg&nesting=2&sort=date-desc) was accepted to **ICLR 2026**!
 - **Dec 2025** - I am honored to receive the **2026-2027 Bilsland Dissertation Fellowship** from **Purdue University** to support my final dissertation research.
