@@ -3,25 +3,49 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "Bilsland Dissertation Fellowship"
+subtitle = "Purdue University"
+date = "Spring 2027"
+content = "Awarded to outstanding Ph.D. candidates to support final dissertation completion."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+title = "Advancing Machine Learning for Scientific Discovery Fellowship"
+subtitle = "Los Alamos National Laboratory"
+date = "Summer 2026"
+content = "Awarded to select graduate researchers to develop trustworthy and transparent machine learning methodologies for critical scientific applications."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "CVPR 2025 Outstanding Reviewers"
+subtitle = "Conference on Computer Vision and Pattern Recognition"
+date = "Jun. 2025"
+content = "Recognized as a top 5% reviewer for CVPR 2025."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Purdue Graduate Student Government Travel Grant"
+subtitle = "Purdue Graduate Student Government"
+date = "Nov. 2024"
+content = "Awarded a travel grant to support academic conference participation."
+
+[[items]]
+title = "NeurIPS 2024 Scholar Award"
+subtitle = "Neural Information Processing Systems"
+date = "Oct. 2024"
+content = "Selected for the NeurIPS 2024 Scholar Award."
+
+[[items]]
+title = "NeurIPS 2024 Spotlight Paper"
+subtitle = "Neural Information Processing Systems"
+date = "Oct. 2024"
+content = "Paper selected as a Spotlight at NeurIPS 2024, representing the top 2.5% of accepted papers."
+
+[[items]]
+title = "Future Industry Talent Graduate Scholarship"
+subtitle = "Hyundai Motor Chung Mong-Koo Foundation"
+date = "Fall 2021 – Spring 2022"
+content = "Awarded a graduate scholarship supporting future industry talent."
+
+[[items]]
+title = "National Science & Technology Scholarship"
+subtitle = "Korea Student Aid Foundation"
+date = "Fall 2010"
+content = "Awarded a national science and technology scholarship."

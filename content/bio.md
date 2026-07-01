@@ -1,5 +1,3 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a Ph.D. candidate in Electrical and Computer Engineering at Purdue University, with a strong commitment to advancing machine learning through both rigorous research and practical application. My primary research centers on **Trustworthy AI** , where I focus on enhancing the reliability, factuality, and fairness of **multimodal foundation models**. I specialize in developing lightweight and efficient post-hoc methods that align model behavior, which avoids the need for costly full-scale retraining.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
-
-My current research focuses on investigating the mathematical principles of natural philosophy.
+In addition to my foundational research, I am passionate about applying machine learning to solve tangible problems across various industries and engineering problems. My applied work involves using generative AI for complex engineering design, developing systems for industrial machine perception, creating intelligent agents for consumer electronics, and leveraging machine learning in remote sensing applications. These projects reflect my broader goal of connecting methodological advancements with practical impact across diverse engineering domains.

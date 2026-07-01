@@ -3,9 +3,11 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Trustworthy AI",
+  "Large Multimodal Models (LMM)",
+  "Retrieval-Augmented Generation (RAG)",
+  "Uncertainty Quantification",
+  "Causal Discovery for Time-series Data"
 ]
 
 [[sections]]

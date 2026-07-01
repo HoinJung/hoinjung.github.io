@@ -1,7 +1,83 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-05"
+content = "I began my summer internship (Advancing Machine Learning for Scientific Discovery Fellowship) at **Los Alamos National Laboratory**."
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2026-02"
+content = "My paper **DQA** was accepted to **CVPR 2026 Findings**!"
+
+[[news]]
+date = "2026-01"
+content = "My paper [*ALA*](https://openreview.net/forum?id=u02Tgg4UYg&nesting=2&sort=date-desc) was accepted to **ICLR 2026**!"
+
+[[news]]
+date = "2025-12"
+content = "I am honored to receive the **2026-2027 Bilsland Dissertation Fellowship** from **Purdue University** to support my final dissertation research."
+
+[[news]]
+date = "2025-11"
+content = "My paper *TV Agent* was accepted to the **AAAI 2026 Workshop on Deployable AI (DAI)**."
+
+[[news]]
+date = "2025-10"
+content = "I successfully passed my PhD Preliminary Exam!"
+
+[[news]]
+date = "2025-06"
+content = "I am honored to be selected as an **Outstanding Reviewer (top 5%)** in **CVPR 2025**."
+
+[[news]]
+date = "2025-06"
+content = "Our paper [*ZSDebias*](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Target_Bias_Is_All_You_Need_Zero-Shot_Debiasing_of_Vision-Language_ICCV_2025_paper.html) was accepted to **ICCV 2025**."
+
+[[news]]
+date = "2025-05"
+content = "I began my summer internship as a **Research Scientist** at **Samsung Research America**."
+
+[[news]]
+date = "2025-01"
+content = "My paper [*ALFA*](https://iclr.cc/virtual/2025/poster/29055) was accepted to **ICLR 2025**!"
+
+[[news]]
+date = "2024-10"
+content = "My work [*NCD-DLT*](https://openaccess.thecvf.com/content/WACV2025/html/Jung_Towards_On-the-Fly_Novel_Category_Discovery_in_Dynamic_Long-Tailed_Distributions_WACV_2025_paper.html) was accepted to **WACV 2025**!"
+
+[[news]]
+date = "2024-10"
+content = "I received the **NeurIPS 2024 Scholar Award**."
+
+[[news]]
+date = "2024-10"
+content = "My paper [*FOPU*](https://aclanthology.org/2024.emnlp-industry.14/) was accepted to the **EMNLP 2024 Industry Track**!"
+
+[[news]]
+date = "2024-10"
+content = "My [*BE-Module*](https://ieeexplore.ieee.org/abstract/document/9527893) paper surpassed **100 citations**."
+
+[[news]]
+date = "2024-09"
+content = "My paper [*SFID*](https://proceedings.neurips.cc/paper_files/paper/2024/hash/254404d551f6ce17bb7407b4d6b3c87b-Abstract-Conference.html) was accepted as a **Spotlight (top 2.5%)** at **NeurIPS 2024**!"
+
+[[news]]
+date = "2024-05"
+content = "My paper on [*explainable antenna design*](https://ieeexplore.ieee.org/document/10685948) was accepted to **IEEE APS 2024**."
+
+[[news]]
+date = "2023-01"
+content = "I began my Ph.D. program at **Purdue University**."
+
+[[news]]
+date = "2022-08"
+content = "I completed my **Master’s degree** at Seoul National University."
+
+[[news]]
+date = "2021-09"
+content = "My paper [*BE-Module*](https://ieeexplore.ieee.org/abstract/document/9527893) for satellite image segmentation was accepted to **IEEE TGRS**."
+
+[[news]]
+date = "2020-09"
+content = "I started my **Master’s program** at **Seoul National University**."
+
+[[news]]
+date = "2020-08"
+content = "I concluded my three-year role as an **Engineer** at **Samsung Electronics**."

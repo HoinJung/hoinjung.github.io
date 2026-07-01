@@ -3,7 +3,50 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
+title = "Area Chair"
+subtitle = "IEEE ICASSP"
+date = "2026"
+content = "Served as an Area Chair for IEEE ICASSP."
+
+[[items]]
+title = "Mentor"
+subtitle = "Purdue ECE G-LaMP"
+date = "2025-2026"
+content = "Mentored graduate students through the Purdue ECE Graduate Leadership and Mentorship Program."
+
+[[items]]
+title = "Co-Chair"
+subtitle = "ICON Student Research Conference, Purdue University"
+date = "2026"
+content = "Served as Co-Chair for the ICON Student Research Conference at Purdue University."
+
+[[items]]
+title = "Program Committee Member"
+subtitle = "AAAI, IEEE BigData"
+date = "2024-2026"
+content = "Served on the program committee for AAAI in 2024, 2025, and 2026, and IEEE BigData in 2025."
+
+[[items]]
 title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+subtitle = "ICLR, CVPR, WACV, NeurIPS, SafeMM-AI Workshop, ECCV, KDD"
+date = "2024-2026"
+content = "Reviewed submissions for major conferences and workshops in machine learning, computer vision, and data mining."
+
+[[items]]
+title = "Journal Reviewer"
+subtitle = "IEEE JMMCT, TMLR, IEEE TGRS"
+date = "2024-2026"
+content = "Reviewed journal manuscripts for IEEE Journal on Multiscale and Multiphysics Computational Techniques, Transactions on Machine Learning Research, and IEEE Transactions on Geoscience and Remote Sensing."
+
+[[items]]
+title = "Grant Review and Allocation Committee"
+subtitle = "Purdue Graduate Student Government"
+date = "2024-2026"
+content = "Served on the Grant Review and Allocation Committee for Purdue Graduate Student Government."
+
+
+[[items]]
+title = "Vice President"
+subtitle = "Student Government, Korea Aerospace University"
+date = "2013"
+content = "Served as Vice President of the student government at Korea Aerospace University."

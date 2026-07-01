@@ -3,8 +3,29 @@ title = "Teaching"
 description = "Courses I have taught or assisted with."
 
 [[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+title = "ECE 695 Machine Learning in Bioinformatics and Healthcare"
+subtitle = "Guest Lecturer, Purdue University"
+date = "Fall 2025"
+content = "Designed and delivered a guest lecture on post-training and inference-time approaches for machine learning in healthcare, introducing advanced efficiency techniques to graduate students."
+tags = ["Graduate", "ECE", "Machine Learning", "Healthcare"]
+
+[[items]]
+title = "ECE 570 Artificial Intelligence"
+subtitle = "Teaching Assistant, Purdue University"
+date = "Fall 2024, Spring 2025, Spring 2026"
+content = "Held office hours and led student projects across three course sections, serving a total of 804 students."
+tags = ["ECE", "Artificial Intelligence", "Machine Learning"]
+
+[[items]]
+title = "Computer Literacy & Programming (Python)"
+subtitle = "Instructor, Seoul National University"
+date = "Mar. 2021 – Jul. 2022"
+content = "Designed and delivered a Python programming course for beginner-level students across three semesters."
+tags = ["Python", "Programming", "Beginner"]
+
+[[items]]
+title = "L0444: Basic Computing (Python)"
+subtitle = "Teaching Assistant, Seoul National University"
+date = "Spring 2021, Spring 2022"
+content = "Led weekly lab sessions for more than 50 students each semester."
+tags = ["Python", "Programming", "Undergraduate"]
