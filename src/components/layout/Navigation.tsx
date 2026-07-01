@@ -113,15 +113,21 @@ export default function Navigation({
     }
   }, [enableOnePageMode, effectiveItems]);
 
-  const isDesktopItemActive = (item: SiteConfig['navigation'][number]) =>
-    enableOnePageMode
+  const opensInNewTab = (href: string) =>
+    href.startsWith('http://') || href.startsWith('https://') || href.endsWith('.pdf');
+
+  const isDesktopItemActive = (item: SiteConfig['navigation'][number]) => {
+    if (item.type === 'link') return false;
+
+    return enableOnePageMode
       ? activeHash === `#${item.target}` || (!activeHash && item.target === 'about')
       : (item.href === '/'
         ? pathname === '/'
         : pathname.startsWith(item.href));
+  };
 
   const getDesktopItemHref = (item: SiteConfig['navigation'][number]) =>
-    enableOnePageMode ? `/#${item.target}` : item.href;
+    enableOnePageMode && item.type === 'page' ? `/#${item.target}` : item.href;
 
   const activeItem = effectiveItems.find((item) => isDesktopItemActive(item)) ?? null;
   const activeHref = activeItem ? getDesktopItemHref(activeItem) : null;
@@ -225,8 +231,10 @@ export default function Navigation({
                             key={item.target}
                             href={href}
                             data-nav-href={href}
-                            prefetch={true}
-                            onClick={() => enableOnePageMode && setActiveHash(`#${item.target}`)}
+                            prefetch={item.type === 'page'}
+                            target={opensInNewTab(href) ? '_blank' : undefined}
+                            rel={opensInNewTab(href) ? 'noopener noreferrer' : undefined}
+                            onClick={() => enableOnePageMode && item.type === 'page' && setActiveHash(`#${item.target}`)}
                             onMouseEnter={() => setHoveredHref(href)}
                             className={cn(
                               'relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-150',
@@ -280,13 +288,15 @@ export default function Navigation({
                 >
                   <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     {effectiveItems.map((item, index) => {
-                      const isActive = enableOnePageMode
-                        ? (item.href === '/' ? pathname === '/' && !activeHash : activeHash === `#${item.target}`)
-                        : (item.href === '/'
-                          ? pathname === '/'
-                          : pathname.startsWith(item.href));
+                      const isActive = item.type === 'link'
+                        ? false
+                        : enableOnePageMode
+                          ? (item.href === '/' ? pathname === '/' && !activeHash : activeHash === `#${item.target}`)
+                          : (item.href === '/'
+                            ? pathname === '/'
+                            : pathname.startsWith(item.href));
 
-                      const href = enableOnePageMode
+                      const href = enableOnePageMode && item.type === 'page'
                         ? (item.href === '/' ? '/' : `/#${item.target}`)
                         : item.href;
 
@@ -300,8 +310,10 @@ export default function Navigation({
                           <Disclosure.Button
                             as={Link}
                             href={href}
-                            prefetch={true}
-                            onClick={() => enableOnePageMode && setActiveHash(item.href === '/' ? '' : `#${item.target}`)}
+                            prefetch={item.type === 'page'}
+                            target={opensInNewTab(href) ? '_blank' : undefined}
+                            rel={opensInNewTab(href) ? 'noopener noreferrer' : undefined}
+                            onClick={() => enableOnePageMode && item.type === 'page' && setActiveHash(item.href === '/' ? '' : `#${item.target}`)}
                             className={cn(
                               'block px-3 py-2 rounded-md text-base font-medium transition-all duration-200',
                               isActive

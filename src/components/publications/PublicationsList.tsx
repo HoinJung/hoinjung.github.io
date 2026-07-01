@@ -17,6 +17,15 @@ import { cn } from '@/lib/utils';
 import { useMessages } from '@/lib/i18n/useMessages';
 import FormattedBibTeXText from './FormattedBibTeXText';
 
+
+function getPublicationLink(pub: Publication): string | undefined {
+    if (pub.url) return pub.url;
+    if (pub.pdfUrl) return pub.pdfUrl;
+    if (pub.doi) return `https://doi.org/${pub.doi}`;
+    if (pub.arxivId) return `https://arxiv.org/abs/${pub.arxivId}`;
+    return undefined;
+}
+
 interface PublicationsListProps {
     config: PublicationPageConfig;
     publications: Publication[];
@@ -191,7 +200,10 @@ export default function PublicationsList({ config, publications, embedded = fals
                         {messages.publications.noResults}
                     </div>
                 ) : (
-                    filteredPublications.map((pub, index) => (
+                    filteredPublications.map((pub, index) => {
+                        const publicationLink = getPublicationLink(pub);
+
+                        return (
                         <motion.div
                             key={pub.id}
                             initial={{ opacity: 0, y: 20 }}
@@ -215,7 +227,18 @@ export default function PublicationsList({ config, publications, embedded = fals
                                 )}
                                 <div className="flex-grow">
                                     <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary mb-2 leading-tight`}>
-                                        <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />
+                                        {publicationLink ? (
+                                            <a
+                                                href={publicationLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-accent transition-colors"
+                                            >
+                                                <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />
+                                            </a>
+                                        ) : (
+                                            <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />
+                                        )}
                                     </h3>
                                     <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-400 mb-2`}>
                                         {pub.authors.map((author, idx) => (
@@ -336,7 +359,8 @@ export default function PublicationsList({ config, publications, embedded = fals
                                 </div>
                             </div>
                         </motion.div>
-                    ))
+                        );
+                    })
                 )}
             </div>
         </motion.div>
