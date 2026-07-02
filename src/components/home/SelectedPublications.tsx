@@ -53,6 +53,14 @@ function getVenueLabel(pub: Publication): string {
     return [venueLabel, pub.year].filter(Boolean).join(' ');
 }
 
+function getPublicationHighlight(pub: Publication): string | undefined {
+    if (/spotlight/i.test(pub.description || '')) {
+        return pub.description;
+    }
+
+    return undefined;
+}
+
 export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
@@ -76,6 +84,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
             <div className="space-y-4">
                 {publications.map((pub, index) => {
                     const publicationLink = getPublicationLink(pub);
+                    const publicationHighlight = getPublicationHighlight(pub);
 
                     return (
                     <motion.div
@@ -114,8 +123,13 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         </p>
                         <p className="text-sm font-medium text-neutral-800 dark:text-neutral-400 mb-2">
                             {getVenueLabel(pub)}
+                            {publicationHighlight && (
+                                <span className="ml-2 inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 text-xs font-semibold text-accent">
+                                    {publicationHighlight}
+                                </span>
+                            )}
                         </p>
-                        {pub.description && (
+                        {pub.description && !publicationHighlight && (
                             <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
                                 {pub.description}
                             </p>

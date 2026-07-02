@@ -4,7 +4,7 @@ content = "I began my summer internship (Advancing Machine Learning for Scientif
 
 [[news]]
 date = "2026-02"
-content = "My paper **DQA** was accepted to **CVPR 2026 Findings**!"
+content = "My paper [**DQA**](https://openaccess.thecvf.com/content/CVPR2026F/html/Jung_Assessing_the_Reliability_of_Image_Quality_Metrics_and_Mitigating_Quality_CVPRF_2026_paper.html) was accepted to **CVPR 2026 Findings**!"
 
 [[news]]
 date = "2026-01"
@@ -16,7 +16,7 @@ content = "I am honored to receive the **2026-2027 Bilsland Dissertation Fellows
 
 [[news]]
 date = "2025-11"
-content = "My paper *TV Agent* was accepted to the **AAAI 2026 Workshop on Deployable AI (DAI)**."
+content = "My paper [*TVAgent*](https://openreview.net/forum?id=CfBsVVbpqv) was accepted to the **AAAI 2026 Workshop on Deployable AI (DAI)**."
 
 [[news]]
 date = "2025-10"
