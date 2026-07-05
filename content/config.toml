@@ -21,7 +21,7 @@ location_details = [
   "West Lafayette, IN, USA"
 ]
 google_scholar = "https://scholar.google.com/citations?user=6VasZjEAAAAJ&hl=en&oi=ao"
-orcid = "https://orcid.org"
+# orcid = "https://orcid.org"
 github = "https://github.com/HoinJung"
 linkedin = "https://www.linkedin.com/in/hoinjung"
 
