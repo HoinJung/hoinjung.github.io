@@ -24,13 +24,13 @@ content = "Served as Co-Chair for the ICON Student Research Conference at Purdue
 title = "Program Committee Member"
 subtitle = "AAAI, IEEE BigData"
 date = "2024-2026"
-content = "Served on the program committee for AAAI in 2024, 2025, and 2026, and IEEE BigData in 2025."
+content = "Served on the program committee for AAAI in 2024, 2025, and 2026, and IEEE BigData in 2025 and 2026."
 
 [[items]]
 title = "Reviewer"
 subtitle = "ICLR, CVPR, WACV, NeurIPS, SafeMM-AI Workshop, ECCV, KDD"
-date = "2024-2026"
-content = "Reviewed submissions for major conferences and workshops in machine learning, computer vision, and data mining."
+date = "2024-2027"
+content = "Reviewed submissions for ICLR (2026, 2027), CVPR (2025, 2026), WACV (2026, 2027), NeurIPS (2025, 2026), SafeMM-AI Workshop at ICCV (2025), ECCV (2024), and KDD (2024, 2026)."
 
 [[items]]
 title = "Journal Reviewer"
@@ -43,7 +43,6 @@ title = "Grant Review and Allocation Committee"
 subtitle = "Purdue Graduate Student Government"
 date = "2024-2026"
 content = "Served on the Grant Review and Allocation Committee for Purdue Graduate Student Government."
-
 
 [[items]]
 title = "Vice President"
