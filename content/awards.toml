@@ -9,13 +9,31 @@ date = "Spring 2027"
 content = "Awarded to outstanding Ph.D. candidates to support final dissertation completion."
 
 [[items]]
+title = "KDD 2026 Research Track Best Reviewer"
+subtitle = "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+date = "Aug. 2026"
+content = "Selected as one of 370 Best Reviewers for the KDD 2026 Research Track."
+
+[[items]]
+title = "CVPR 2026 Outstanding Reviewer"
+subtitle = "Conference on Computer Vision and Pattern Recognition"
+date = "Jun. 2026"
+content = "Recognized as a top 5% reviewer for CVPR 2026."
+
+[[items]]
 title = "Advancing Machine Learning for Scientific Discovery Fellowship"
 subtitle = "Los Alamos National Laboratory"
 date = "Summer 2026"
 content = "Awarded to select graduate researchers to develop trustworthy and transparent machine learning methodologies for critical scientific applications."
 
 [[items]]
-title = "CVPR 2025 Outstanding Reviewers"
+title = "Purdue University Nominee for Google PhD Fellowship"
+subtitle = "Purdue University"
+date = "Apr. 2026"
+content = "Selected as one of four Purdue University nominees from 32 candidates for the Google PhD Fellowship."
+
+[[items]]
+title = "CVPR 2025 Outstanding Reviewer"
 subtitle = "Conference on Computer Vision and Pattern Recognition"
 date = "Jun. 2025"
 content = "Recognized as a top 5% reviewer for CVPR 2025."
